@@ -5,7 +5,7 @@ image: /img/wild_banner.jpeg
 heading: Great coffee with a conscience
 subheading: placerholder text
 mainpitch:
-  title: MINNESOTA WILD SLED HOCKEY MISSION
+  title: MWSH Mission
   description: Minnesota Wild Sled Hockey is dedicated to promote societal
     awareness of the challenges, and needs of persons who have physical
     disabilities.
