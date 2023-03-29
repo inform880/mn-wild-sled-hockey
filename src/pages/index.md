@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Minnesota Wild Sled Hocky
 image: /img/wild_banner.jpeg
-heading: Great coffee with a conscience
+heading: What we're about
 subheading: placerholder text
 mainpitch:
   title: MWSH Mission
