@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Minnesota Wild Sled Hocky
+title: Minnesota Wild Sled Hockey
 image: /img/wild_banner.jpeg
 heading: What we're about
 subheading: placerholder text

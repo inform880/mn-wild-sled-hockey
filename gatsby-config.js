@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "MN Wild Sled Hockey",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Minnesota Wild Sled Hockey is dedicated to promote societal awareness of the challenges, and needs of persons who have physical disabilities.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
