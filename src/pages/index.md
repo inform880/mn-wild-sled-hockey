@@ -2,19 +2,13 @@
 templateKey: index-page
 title: Minnesota Wild Sled Hockey
 image: /img/wild_banner.jpeg
-heading: What we're about
-subheading: placerholder text
 mainpitch:
   title: MWSH Mission
   description: Minnesota Wild Sled Hockey is dedicated to promote societal
     awareness of the challenges, and needs of persons who have physical
     disabilities.
-description: " Minnesota Wild Sled Hockey is a Minnesota-based 501c3 non-profit
-  corporation, provides opportunities for people with disabilities to
-  participate in hockey and promotes the development of excellence in hockey in
-  Minnesota.  Minnesota Wild Sled Hockey is open to players aged 5 and above
-  with physical and/or cognitive disabilities that prevents playing stand-up
-  hockey."
+heading: What we're about
+subheading: placerholder text
 intro:
   heading: What we offer
   description: >
@@ -38,4 +32,10 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: Minnesota Wild Sled Hockey is a Minnesota-based 501c3 non-profit
+  corporation, provides opportunities for people with disabilities to
+  participate in hockey and promotes the development of excellence in hockey in
+  Minnesota.  Minnesota Wild Sled Hockey is open to players aged 5 and above
+  with physical and/or cognitive disabilities that prevents playing stand-up
+  hockey.
 ---
