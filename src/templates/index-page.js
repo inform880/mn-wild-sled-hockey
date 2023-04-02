@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -16,7 +15,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  secondarypitch,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -34,7 +33,7 @@ export const IndexPageTemplate = ({
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h4 className="subtitle">{mainpitch.description}</h4>
                     </div>
                   </div>
                   <div className="columns">
@@ -42,7 +41,15 @@ export const IndexPageTemplate = ({
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p>{description}</p>
+                      <p className="subtitle">{description}</p>
+                    </div>
+                  </div>
+                  <div className="content">
+                    <div className="tile">
+                      <h3 className="title">{secondarypitch.title}</h3>
+                    </div>
+                    <div className="tile">
+                      <p className="subtitle">{secondarypitch.description}</p>
                     </div>
                   </div>
                   <div className="column is-12">
@@ -73,9 +80,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  secondarypitch: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
@@ -89,6 +94,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
+        secondarypitch={frontmatter.secondarypitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -123,8 +129,8 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          heading
+        secondarypitch {
+          title
           description
         }
       }
