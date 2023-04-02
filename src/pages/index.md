@@ -9,7 +9,7 @@ mainpitch:
   description: Minnesota Wild Sled Hockey is dedicated to promote societal
     awareness of the challenges, and needs of persons who have physical
     disabilities.
-description: " Minnesota Wild Sled Hockey is a Minnesota-based 501c3 non-profit
+description: "Minnesota Wild Sled Hockey is a Minnesota-based 501c3 non-profit
   corporation, provides opportunities for people with disabilities to
   participate in hockey and promotes the development of excellence in hockey in
   Minnesota.  Minnesota Wild Sled Hockey is open to players aged 5 and above
