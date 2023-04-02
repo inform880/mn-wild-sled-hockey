@@ -83,3 +83,14 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: Boardmembers,
+              name: boardmembers,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Name, name: name, widget: text },
+                  { label: Position, name: position, widget: text },
+                ],
+            }
