@@ -90,7 +90,7 @@ collections:
               fields:
                 [
                   { label: Image, name: image, widget: image },
-                  { label: Name, name: name, widget: text },
-                  { label: Position, name: position, widget: text },
+                  { label: Name, name: name, widget: string },
+                  { label: Position, name: position, widget: string },
                 ],
             }
