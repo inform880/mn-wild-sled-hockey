@@ -6,8 +6,7 @@ description: Board Meeting Notes
 featuredpost: false
 featuredimage: /img/logo.png
 tags:
-  - flavor
-  - tasting
+  - boardmeetingnotes
 ---
 # **MN Wild Sled Hockey Board Meeting**
 
