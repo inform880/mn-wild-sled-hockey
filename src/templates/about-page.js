@@ -20,7 +20,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, boardmembe
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <h3 className="title">Minnesota Sled Hockey Board of Directors</h3>
+              <h3 className="title">Board of Directors</h3>
               <FeatureGrid gridItems={boardmembers} />
             </div>
           </div>
